@@ -1,0 +1,69 @@
+#components-layout-demo-custom-trigger .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+.rectangle {
+  height: 45px;
+  width: 1px;
+  transform: scaleX(-1);
+  background-color: #d8d8d8;
+  position: relative;
+  top: 20%;
+}
+
+.ant-layout-sider{
+  background: white !important;
+}
+.ant-page-header{
+  display: inline-block;
+}
+.ant-page-header-title-view-sub-title{
+  display: block !important;
+}
+
+.video__container{
+  position: relative;
+  height: 100%;
+}
+
+.video__header {
+  background-color: #002766;
+  padding: 25px;
+  padding-bottom: 30x;
+  height: 150px;
+}
+
+
+.video--content{
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+
+.header__container--score{
+  display: inline-block;
+}
+
+.cuestionario-para-di-copy {
+  height: 22px;
+  width: 226px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+}
