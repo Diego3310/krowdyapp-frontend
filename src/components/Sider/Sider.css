@@ -25,6 +25,9 @@
   top: 20%;
 }
 
+.ant-layout{
+  overflow-x: initial !important;
+}
 .ant-layout-sider{
   background: white !important;
 }
@@ -50,12 +53,14 @@
 
 .video--content{
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 20%;
 }
 
-.header__container--score{
-  display: inline-block;
+.video--content video{
+  height: 400px;
+  width: 640px;
+  margin: 0 auto;
 }
 
 .cuestionario-para-di-copy {
